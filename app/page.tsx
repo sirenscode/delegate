@@ -71,7 +71,7 @@ const App = () => {
           </div>
         </div>
         <div className="w-full flex gap-[20px] flex-col items-center mb-[50px] p-3">
-          <div className="w-full h-[1px] bg-[#234464]"></div>
+          <div className="w-full h-[1px] bg-[#234464] shadow-lg shadow-[#234464]"></div>
           <p className="text-[#E1E1E1] w-1/2 max-[500px]:w-3/4">Please Input your Mpesa number to receive a token of appreciation for voting Mozart then attach the photo you selected as an indication for supporting Mozart.🤗</p>
           <input type="tel" id="phone" className="border-[#234464] border-[1px] bg-[transparent] rounded-lg p-2"/>
           <button className="w-[100px] p-1 bg-[#234464] border-[#234464] border-[1px] rounded-lg hover:bg-[transparent]" onClick={submit}>Submit</button>
