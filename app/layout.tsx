@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&family=Fredoka:wght@300..700&family=Jura:wght@300..700&display=swap" rel="stylesheet"/>
+        <meta property="og:image" content="/images/profile.jpg"></meta>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
