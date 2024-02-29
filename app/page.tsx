@@ -32,10 +32,10 @@ const App = () => {
     document.getElementById("image")!.click();
   }
   function submit(){
-    const phoneNumber = `25418402229`;
+    const phoneNumber = `254718402229`;
     const number = (document.getElementById("phone") as HTMLInputElement)?.value ?? '';
     const message = `Hello this is my Mpesa no:${number} and i confirm i have voted Mozart and i want to receive my token`;
-    const whatsUrl = `https://api.whatsapp.com/send?phone=${encodeURIComponent(number)}&text=${encodeURIComponent(message)}`;
+    const whatsUrl = `https://api.whatsapp.com/send?phone=${encodeURIComponent(phoneNumber)}&text=${encodeURIComponent(message)}`;
     window.document.location=whatsUrl;
   }
   
